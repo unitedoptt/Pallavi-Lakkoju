@@ -80,7 +80,7 @@ h3.custom-title:after{
 }
 h3.col-title {
     font-size: 26px;
-	font-weight:600;
+	font-weight:800;
     margin-bottom: 45px;
 	text-transform:capitalize;
 	position:relative;
@@ -112,7 +112,7 @@ h3.col-title:after{
 
 body.light {
 	color: #666;
-	background-color: #fff;
+	background-color: #eaefde;
 }
 body.home.light .utf-home-details h1 span {
 	color: #666;
@@ -669,10 +669,10 @@ to {
 .title-section p.text-max-700 {
     font-size: 16px;
     line-height: 1.8;
-	font-weight:400;
+	font-weight:600;
 	margin-bottom:5px;
     max-width: 700px;
-	color:#e6e6e6;
+	color:#000000;
     margin-left: auto;
     margin-right: auto;
 }
@@ -702,7 +702,7 @@ to {
 	border:5px solid rgba(0, 0, 0, 0.05);
 }
 .utf-about-dtl h2{
-	font-weight:600;
+	font-weight:800;
 	font-size:30px;
 	line-height:1.4;
 	margin-bottom:20px;
@@ -718,19 +718,19 @@ to {
 }
 .utf-about-dtl ul li::before {
   content: "\2022";
-  color: red;
+  color: #77894d;
   font-weight: bold;
   display: inline-block; 
   width: 1em;
   margin-left: -1em;
 }
 .about .utf-box-stats {
-	background:#1e1e1e;
+	background: bisque;
 	padding: 30px 15px 25px 15px;
 	border-radius: 6px;
 	text-align:center;
 	border-color:transparent !important;
-	background: #1e1e1e;
+	
 	box-shadow: 0 0px 15px rgba(255, 255, 255, 0.05);
 }
 .about .utf-box-stats.with-margin {
@@ -754,6 +754,7 @@ to {
 	text-transform:capitalize;
 	font-size:14px;
 	font-weight:400;
+	color: black;
 }
 /* Resume */
 
@@ -766,7 +767,7 @@ to {
 	position: relative;
 	padding: 25px 20px 20px 35px;
 	margin: 0 0 35px;
-	background: #1e1e1e;
+	background: bisque;
 	border-radius:6px;	
 	box-shadow:0 0px 10px rgba(255, 255, 255, 0.2);
 }
@@ -814,7 +815,7 @@ to {
 }
 .about .utf-resume-box p {
 	margin: 0;
-	color: #b9b9b9;
+	color: #000000;
 	font-size: 14px;
 	font-weight:400;
 	line-height:1.8;
@@ -841,7 +842,7 @@ to {
 }
 /* Skills */
 .utf-skills-box{
-	background: #1e1e1e;
+	background: ;
 	box-shadow:0 0px 15px rgba(255, 255, 255, 0.05);
 	padding:25px 20px;
 	border-radius: 6px;
@@ -856,13 +857,13 @@ to {
 	color: #fff;
 }
 .about .c100:after {
-	background-color: #1e1e1e;
+	background-color: ;
 }
 
 /* Services */
 
 .utf-services-section .utf-single-service {
-    background-color: #1e1e1e;
+    background-color: bisque;
 	box-shadow:0 0px 15px rgba(255, 255, 255, 0.03);
     margin-bottom: 30px;
     padding: 40px 30px;
@@ -873,7 +874,7 @@ to {
     transition: all .9s ease-out;
 }
 .utf-services-section .utf-single-service .service-icon {
-    color: #ffffff;
+    color: #000000;
     width: 90px;
     height: 90px;
     line-height: 92px;
@@ -885,7 +886,7 @@ to {
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
 }
 .utf-services-section .utf-single-service .utf-service-title {
-    color: #ffffff;
+    color: #000000;
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 18px;
@@ -923,7 +924,7 @@ to {
 	-moz-user-select: none;
 	-ms-user-select: none;
 	-webkit-user-select: none;
-	background-color: #1e1e1e;
+	background-color: ;
 	box-shadow: 0 0px 10px rgba(255, 255, 255, 0.08);
 	margin:5px;
 	padding: 40px 30px;
@@ -1029,7 +1030,7 @@ to {
 /*** Pricing Plan ***/
 
 .utf-pricing-section .utf-single-plan {
-    background-color: #1e1e1e;
+    background-color: ;
 	box-shadow: 0 0px 15px rgba(255, 255, 255, 0.03);
     padding: 50px 10px;
     border-radius: 6px;
@@ -1346,7 +1347,7 @@ to {
 	color:#7b7b7b;
 	-ms-flex-align: center !important;
 	align-items: center !important;
-	background: #252525;
+	background: antiquewhite;
 	border: 1px solid #2f2f2f;
 	margin-bottom: 15px;
 	padding: 10px 25px;
@@ -1378,7 +1379,7 @@ p.connect_with b{
 	top: 50%;
 	color: #ffffff;
 	transform: translate(0, -50%);
-	background:#3e3e3e;
+	background:azure;
 	width: 50px;
 	height: 50px;
 	line-height: 50px;
@@ -1395,7 +1396,7 @@ p.connect_with b{
 	font-weight: 500;
 	font-size: 16px;
 	margin-bottom: 5px;
-	color:#e6e6e6;
+	color:#000;
 }
 .contact ul.social {
 	text-align:center;
@@ -1404,17 +1405,20 @@ p.connect_with b{
 	display: inline-block;
 }
 .contact ul.social li a {
-	display: inline-block;
-	height: 40px;
-	width: 40px;
-	line-height: 42px;
-	text-align: center;
-	color: #fff;
-	transition: .3s;
-	font-size: 17px;
-	margin: 0 4px;
-	background: #2b2a2a;
-	border-radius: 50%;
+	    display: inline-block;
+    height: 40px;
+    width: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #0a0909;
+    transition: .3s;
+    font-size: 17px;
+    margin: 0 4px;
+    background: bisque;
+    border-radius: 50%;
+}
+.contact ul.social li a:hover{
+	 color: #fff;
 }
 /* Form */
 h4.utf-content-title {
@@ -1441,7 +1445,7 @@ h4.utf-content-title:after, .utf-content-title:after {
 .contact .contactform input[type=text], .contact .contactform input[type=email], .contact .contactform input[type=number] {
 	border: 1px solid #2f2f2f;
 	width: 100%;
-	background: #252525;
+	background: #faebd7;
 	color: #fff;
 	padding: 12px 20px;
 	margin-bottom: 25px;
@@ -1451,7 +1455,7 @@ h4.utf-content-title:after, .utf-content-title:after {
 }
 .contact .contactform textarea {
 	border: 1px solid #2f2f2f;
-	background: #252525;
+	background: #faebd7;
 	color: #fff;
 	width: 100%;
 	padding: 12px 20px;
@@ -1465,7 +1469,7 @@ h4.utf-content-title:after, .utf-content-title:after {
 .utf-contact-form input.form-control {
 	border: 1px solid #2f2f2f !important;
 	width: 100%;
-	background: #252525;
+	background: #faebd7;
 	color: #fff;
 	padding: 12px 20px !important;
 	height:auto;
@@ -1476,7 +1480,7 @@ h4.utf-content-title:after, .utf-content-title:after {
 }
 .utf-contact-form textarea {
 	border: 1px solid #2f2f2f !important;
-	background: #252525;
+	background: #faebd7;
 	color: #fff;
 	width: 100%;
 	padding: 12px 20px;
@@ -2165,7 +2169,7 @@ body {
 	padding-bottom: 0;
 }
 .about .utf-resume-box h5 {
-	font-size: 18px;
+	font-size: 20px;
 	line-height:1.5;
 }
 .about .utf-box-stats {
